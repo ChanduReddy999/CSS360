@@ -1,0 +1,36 @@
+/* 
+margin: ;
+
+margin-top: ;
+margin-right: ;
+margin-bottom: ;
+margin-left: ;
+
+*/
+
+*{
+    margin: 0;
+}
+
+div{
+    color: aqua;
+    background-color: blue;
+
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-bottom: 120px; /* px should be high so that effect will happen to the element based on other elements */
+    margin-left: 100px;
+
+
+    /* margin: 20px; */
+    /* margin: 20px 50px; */
+    /* margin: 100px 120px 30px 20px; */
+}
+
+#div1{
+    width: 100px;
+    height: 20px;
+    margin: 200px;
+    border: 3px solid red;
+    background-color: yellow;
+}

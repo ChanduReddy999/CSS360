@@ -1,0 +1,26 @@
+/* this is a comment in CSS */
+/* CSS selectors are used to write the code for HTML */
+
+
+
+h1{
+    color:red;   /* here we are appling color to h1 tag */ 
+}
+h2, p{
+    color: blueviolet;
+}
+#id1{
+    color: aqua;
+}
+.class1{
+    color: blue;
+    
+}
+p.class2{
+    color: yellow;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}

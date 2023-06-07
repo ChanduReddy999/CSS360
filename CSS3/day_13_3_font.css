@@ -1,0 +1,26 @@
+/* 
+    =====font-size=======
+    =====font-family=====
+    =====font-varient=====
+    =====font-weight=====
+
+
+    font-family: sans-serif;   parent1 
+    font-family: serif;         parent2
+    font-family: monospace;     parent3
+    font-family: 'Courier New', Courier, monospace;     child of parent3 */
+
+
+p{
+    font-size: x-large;
+    /* font-family: sans-serif; */
+    /* font-family: serif; */
+    /* font-family: monospace; */
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    font-weight: 900;
+
+
+    /* font: x-large small-caps serif; */
+
+}

@@ -1,0 +1,13 @@
+/* 
+    linearGradient
+    radialGradient
+    conicGradient
+
+*/
+
+#gradients{
+    /* background-image: linear-gradient(to top left, aqua, red, white, orange, pink); */
+    /* background-image: repeating-linear-gradient(to top left, aqua, red, white, orange, pink); */
+    /* background-image: radial-gradient(red,blue); */
+    background-image: conic-gradient(red, white, black);
+}

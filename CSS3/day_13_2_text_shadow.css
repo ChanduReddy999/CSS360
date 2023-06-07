@@ -1,0 +1,15 @@
+/* 
+    text shadow
+
+    text-shadow
+        /* x-axis y-axis blur color */
+
+
+*/
+
+h1{
+    color: aqua;
+    font-size: 40px;
+    text-shadow: 2px 3px 3px red;
+    /* x-axis y-axis blur color */
+}

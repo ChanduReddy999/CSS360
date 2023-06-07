@@ -1,0 +1,19 @@
+/* 
+    overflow
+
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+*/
+
+div{
+    width: 150px;
+    height: 80px;
+    border: 2px solid red;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+
+}

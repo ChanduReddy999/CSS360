@@ -1,0 +1,26 @@
+/* 
+    list-style
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+ol{
+    /* color: red; */
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline 4px solid;
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+
+}
+li{
+    color: green;
+    list-style:lower-alpha;
+    list-style-position: inside;
+    /* background-color: azure; */
+    /* list-style-image: url("wallpaper.jpg"); */
+}

@@ -1,0 +1,32 @@
+/* 
+colors:
+
+1. direct color code
+2. hexa decimal color code
+3. rgb color code
+4. hsl color code
+5. rgba color code with opacity
+6. hsla color code with opacity
+*/
+
+
+h1{
+    color: red;
+}
+h2{
+    color: #00ffbb;
+}
+h3{
+    color: rgb(77, 27, 215);
+}
+h4{
+    color: hsl(198, 100%, 51%);
+}
+h5{
+    color: rgba(211, 123, 030, 60%);
+    /* color: rgba(211, 123, 030, 0.6); */
+}
+h6{
+    color: hsla(000, 90%, 50%, 90%);
+    /* color: hsla(000, 90%, 50%, 0.9); */
+}

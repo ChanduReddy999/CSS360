@@ -1,0 +1,7 @@
+img{
+    width: 400px;
+    height: 800px;
+    border: 20px solid yellow;
+    border-radius: 30%;
+    float:right;  /* left right  */
+}

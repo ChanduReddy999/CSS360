@@ -1,0 +1,47 @@
+/* 
+    ====text=====
+
+    color
+    font-size
+    text-align
+    text-transform
+    letter-spacing
+    word-spacing
+    text-decoration
+    text-indent
+*/
+
+h1{
+    color: red;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    letter-spacing: 20px;
+}
+h3{
+    word-spacing: 20px;
+}
+h4{
+    text-indent: 20px;
+}
+h5{
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+}
+h6{
+    text-align: right;
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: justify; */
+}
+b{
+    /* text-decoration: 4px underline solid red; */
+
+    /* text-decoration-thickness: 2px; */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    
+}

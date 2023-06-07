@@ -1,0 +1,39 @@
+table{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    font-size: 28px;
+}
+th{
+    color: aqua;
+    border: 2px solid antiquewhite;
+    padding: 10px;
+
+}
+td{
+    color: rebeccapurple;
+    border: 2px solid rgb(211, 132, 30);
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: sandybrown;
+}
+th:hover{
+    background-color: blue;
+}
+td:hover{
+    background-color: blueviolet;
+    color: blue;
+}
+
+/* tr:nth-child(even){
+    background-color: blue;
+}
+th:nth-child(even){
+    background-color: red;
+}
+td:nth-child(even){
+    background-color: tan;
+} */
+

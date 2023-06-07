@@ -1,0 +1,48 @@
+/* 
+    using the css border we can give border to any element in HTML
+    in CSS we will have the following borders
+    1. border-style: type of border
+    2. border-width: thickness of border
+    3. border-color:  color of border
+    4. border-radius:  border edge/corner with round shape 
+*/
+
+/* if we do not mention any color to the border for any html element then the border color is text color of the html element */
+/* border radius we are using in css to give rounded corners/edges
+    In css we will give border radius based on position also, 
+    to give border radius based on the position 
+    we will use the following syntax 
+    border-radius:top/right/bottom/left; 
+ */
+
+/* 
+    in css we can give css border based on position
+    border-position_name-style;
+    border-position_name-width;
+    border-position_name-color;
+
+    ex: border-top-style: solid;
+*/
+
+#chandu{
+    /* color: aqua; */
+    /* font-size: 24px; */
+    border-style: solid;
+    /* border-style: solid/dotted/dashed/none/ridge/groove/inset/outset; */
+    border-width: 5px;
+    border-color: palevioletred;
+    border-radius: 20px;
+    /* border-radius: 10px 20px 30px 40px; */
+    /* border-radius: 30px 10px; */
+
+    /*  border shothand*/
+    /* border: solid red 5px ; */
+
+    /* border-top-style: solid; */
+    /* border-top-color: red; */
+    /* border-top-width: 20px; */
+    /* border-top-right-radius: 20px; */
+
+    
+}
+

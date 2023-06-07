@@ -1,0 +1,67 @@
+/* 
+background-color
+background-image
+background-size
+background-position
+background-repeat
+background-attachment
+background(shorthand)
+
+*/
+body{
+    background-color: antiquewhite;
+}
+h1{
+    background-color: aqua;
+    color: brown;
+}
+p{
+    background-image: url("wallpaper.jpg");
+    color: blue;
+
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    background-position: center;
+    /* background-position: top; */
+    /* background-position: top-right; */
+    /* background-position: top-left; */
+    /* background-position: bottom; */
+    /* background-position: bottom-right; */
+    /* background-position: bottom-left; */
+
+    background-size: 400px 600px;
+    /* background-size: 100% 50%; */
+
+
+    /* background-image: url("wallpaper.jpg") no-repeat center; */
+
+}
+
+
+
+
+/*  
+    background-repeat
+    in css we use background image to display any image as background, some the image will be repeated n no.of times on the webpage due the size of the image is very small when compared with the HTML element.
+    To decide how many times the image has to repeat ot how to stop the background repeatation, in css we will use (background-repeat).
+    1. background-repeat: repeat-x >>>repeat horizontally,  2. background-repeat: repeat-y >>> repeat vertically ,3. background-repeat:no-repeat >>> only once
+*/
+
+/*  background-position
+    background-position: top/bottom/center/left/right;
+    background-position: top/top-right,top-left/bottom,bottom-left,bottom-right/center/left/right;
+*/
+
+/* 
+    background-size
+    it is used to give the fixed size for the background
+    using background size we can specify the background size in terms of width and height
+    the width and height we can give in terms of pixels or percentages
+*/
+
+/* 
+    with the help of background shothand
+    background-image: url("wallpaper.jpg") no-repeat center;
+*/

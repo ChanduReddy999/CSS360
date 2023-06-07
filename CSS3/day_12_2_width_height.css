@@ -1,0 +1,40 @@
+/* 
+    width:
+    min-width:
+    max-width:
+
+    
+    height:
+    min-height:
+    max-height:
+*/
+
+/* 
+based on content
+width:auto;
+height:auto;
+*/
+
+
+div{
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    
+}
+
+h1{
+    color: royalblue;
+}
+
+#div1{
+    width: 80%;
+    /* height: 60%; */    /* this height attribute in percentage is not working*/
+    background-color: red;
+}
+
+#div2{
+    background-color: blueviolet;
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,15 @@
+a{
+    color: red;
+}
+
+a:hover{
+    color: aqua;
+}
+a:visited{
+    color: aquamarine;
+}
+a:active{
+    color: blue;
+}
+
+

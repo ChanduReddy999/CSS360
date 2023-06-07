@@ -1,0 +1,42 @@
+/* 
+    display:inline
+    display:block
+    display:inline-block
+    display:none
+*/
+
+/* display:block */
+nav{
+    width: 400px;
+    height: auto;
+    background-color: aquamarine;
+    font-size: 20px;
+    padding: 5px;
+}
+a{
+    color: red;
+    display:block;
+    padding: 10px;
+}
+
+/* dispaly:inline */
+ul{
+    background-color: red;
+    height: auto;
+    width: 650px;
+}
+li{
+    color: aqua;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* display:none */
+h2{
+    display: none;
+}
+/* h3{
+    visibility: hidden;
+} */
