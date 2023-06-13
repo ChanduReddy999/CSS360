@@ -1,0 +1,33 @@
+/* 
+    translate() =====>to change position in X/Y-axis direction
+    scale()     =====>to change the size of element in X/Y-axis direction
+    rotate()    =====>to rotate element in X/Y-axis direction
+    skew()      =====>to change angle of element in inclined position
+*/
+
+/* 
+    transform:translateX(px);
+    transform:translateY(px);
+
+    transform:scaleX(numbers);    
+    transform:scaleY(numbers);
+
+    transform:rotate(45deg);
+
+    transform:skewX(20deg)
+    transform:skewY(20deg)
+*/
+
+
+div{
+    width: 50px;
+    height: 70px;
+    background-color: aqua;
+    
+
+    margin: 50px;
+    /* transform: translate(100px,200px); */
+    /* transform: scale(2,2);  */
+    /* transform: rotate(45deg); */
+    transform: skew(20deg,20deg);
+}

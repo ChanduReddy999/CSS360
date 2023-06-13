@@ -1,0 +1,33 @@
+/* 
+    Animations====>Using @Keyframes
+*/
+
+@keyframes anime{
+    from{
+        width: 100px;
+        height: 200px;
+        background-color: aqua;
+        position: static;
+    }
+    to{
+        width: 500px;
+        height: 700px;
+        background-color: rgb(7, 184, 28);
+        position: relative;
+        left: 200px;
+        top: 100px;
+    }
+}
+
+div{
+    width: 100px;
+    height: 200px;
+    background-color: aqua;
+
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    
+}
+

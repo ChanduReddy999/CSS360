@@ -1,0 +1,25 @@
+/* 
+    transition: width 5s;
+    transition-delay: 3s;
+    transition-property: width;
+    transition-timing-function: ease-in; 
+
+    transition: 4s width ease-out;
+*/
+
+div{
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+
+    transition: width 5s;
+    transition-delay: 3s;
+    transition-property: width;
+    transition-timing-function: ease-in;
+
+    /* transition: 4s width ease-out; */
+
+}
+div:hover{
+    width: 500px;
+}

@@ -1,0 +1,18 @@
+input[type=text]{
+    width: 300px; height: 25px; margin: 10px;
+    color: aquamarine; font-size: 20px;
+}
+input[type=email]{
+    width: 300px; height: 25px; margin: 10px;
+}
+input[type=password]{
+    width: 300px; height: 25px; margin: 10px;
+}
+input::placeholder{
+   color: aqua; font-size: 20px;
+}
+
+
+/* #Chandu{
+    width: 300px; height: 25px; margin: 10px;
+} */
