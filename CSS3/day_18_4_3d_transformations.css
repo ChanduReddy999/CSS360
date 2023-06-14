@@ -1,0 +1,25 @@
+/* 
+    3D-transformations
+
+
+    translate   ===> translateX(), translateY(), translateZ(), translate()
+    rotate      ===> rotateX(), rotateY(), rotateZ(), rotate()
+    scale       ===> scaleX(), scaleY(), scaleZ(), scale()
+    skew        ===> skewX(), skewY(), skewZ(), skew()
+
+    "perspective()" ===> it is used to display the 3d-element from the view-point
+*/
+
+div{
+    margin: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px solid red;
+    border-radius: 10px;
+
+    transform: translate(200px,200px);
+    transform: rotate(45deg);
+    transform: scale(2);
+
+}

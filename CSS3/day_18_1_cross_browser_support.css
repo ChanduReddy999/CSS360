@@ -1,0 +1,31 @@
+/* 
+    cross browser functionalities
+
+    -webkit-        this style is used for google chrome or safari
+    -moz-           this style is used for mozilla firefox
+    -ms-            this style is used for microsoft edge
+    -o-             this style is used for opera
+
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 12s;
+    transition-delay: 2s;
+    -webkit-transition: width 12s;
+    -webkit-transition-delay: 2s;
+    -moz-transition: width 12s ;
+    -moz-transition-delay: 2s;
+    -ms-transition: width 12s ;
+    -ms-transition-delay:2s;
+    -o-transition: width 12s;
+    -o-transition-delay:2s;
+
+}
+div:hover{
+    width: 400px;
+    height: 300px;
+}
+

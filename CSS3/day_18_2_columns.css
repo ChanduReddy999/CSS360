@@ -1,0 +1,21 @@
+/* 
+    column-count:           how columns we need to divide
+    column-rule-color:      it is used to specify the ruler color
+    column-rule-style:      it is used to specify the style of ruler
+    column-rule-width:      it is used to specify the width of ruler
+    column-gap:             it is used to specify the gap between the columns
+    column-width:           it is used to specify the width of columns
+    column-span:all;        it is used to specify the equal content in all columns
+*/
+
+div{
+    column-count: 3;
+    column-rule-color: red;
+    column-rule-style: solid;
+    column-rule-width: 4px;
+    column-gap: 50px;
+    column-width: 100px;
+    column-span: all;
+    font-size: 20px;
+    color: blue;
+}

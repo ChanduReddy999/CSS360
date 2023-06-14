@@ -1,0 +1,55 @@
+/* 
+    variables
+        using css variables we can able to store the "css-style data/information" in some name    
+        whenever we want, we can use the specific css style "directly we use with the help of variable_name", instead of "direct-style".
+        
+
+        --variable_name:value/data/style;
+
+        :root{
+            here we declare the variables in the css
+
+             --variable_name:value/data/style;   like this
+        }
+        
+
+        example===>
+
+        :root{
+            --textcolor:red;
+            --bodycolor:blue;
+            --headingcolor:green;
+        }
+
+        body{
+            color:var(--bodycolor);
+            background-color:var(--textcolor);
+        }
+
+    instead of remembering data of css elements like color or background color every time we can use css variables as a shortcut
+    Note===> the value of the variable we can give to any css style with help of the 
+                
+                var(--variable_name)
+
+            example==>
+
+                body{
+                    color:var(--bodycolor);
+                    background-color:var(--textcolor);
+                }
+
+
+*/
+
+:root{
+    --textcolor:red;
+    --headingcolor:blue;
+    --bodycolor:green;
+
+}
+body{
+    background-color: var(--bodycolor);
+}
+p{
+    color: var(--textcolor);
+}

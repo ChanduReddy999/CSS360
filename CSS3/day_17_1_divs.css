@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+.main{
+    width: 800px;
+    height: 450px;
+    border: 5px solid yellow;
+    background-color: aquamarine;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.left{
+    width: 59%;
+    height: 100%;
+    background-color: rgb(138, 121, 190);
+    border-right: 6px solid yellow;
+    float: left;
+}
+
+.right{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(119, 146, 155);
+    border-right: 2px solid yellow;
+    float: right;
+}
+
+img{
+    margin-top: 70px;
+    /* opacity: 0.1; */
+
+    animation-name: shivaji;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes shivaji{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+    /* we can use percentages from 0% to 100% */
+    
+        /* 0%{ opacity:0; }
+        10%{ opacity:0.1; }
+        20%{ opacity:0.2; }
+        30%{ opacity:0.3; }
+        40%{ opacity:0.4; }
+        50%{ opacity:0.5; }
+        60%{ opacity:0.6; }
+        70%{ opacity:0.7; }
+        80%{ opacity:0.8; }
+        90%{ opacity:0.9; }
+        100%{ opacity:1; } */
+   
+}
+
+form{
+    margin-top: 20%;
+}
+
+h1{
+    color: rgb(29, 227, 101);
+}
+
+.email{
+    color: aqua;
+}
+.pass{
+    color: aqua;
+}
+
+#email1{
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: blue;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#pass1{
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: blue;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+#submit{
+    color: red;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin: 20px;
+    height: 25px;
+}
+#clear{
+    color: red;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    height: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+}
+#forgot{
+    margin-right: 10px;
+}
+#register{
+    margin-left: 30px;
+}
