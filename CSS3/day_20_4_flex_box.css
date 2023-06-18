@@ -1,0 +1,12 @@
+#main{
+    display: flex;
+    /* flex-direction: column-reverse; */
+
+}
+#item{
+    border: 2px solid red;
+    flex: 1;
+
+}
+
+

@@ -1,0 +1,71 @@
+/* 
+    pixel-range     css-media-queries code
+    0-200px         ===>@media screen(min-device-width:0px)   and (max-device-width:200px){      }
+    201px-400px     ===>@media screen(min-device-width:201px) and (max-device-width:400px){      }
+    401px-600px     ===>@media screen(min-device-width:401px) and (max-device-width:600px){      }
+    601px-800px     ===>@media screen(min-device-width:601px) and (max-device-width:800px){      }
+    801px-more      ===>@media screen(min-device-width:801px) and (max-device-width:1200px){      }
+
+
+    0-768px      ===>mobile phones                                           @media screen(min-device-width:0px)   and (max-device-width:768px){      }
+    768px-992px  ===>tablets                                                 @media screen(min-device-width:769px)   and (max-device-width:992px){      }
+    992px-1200px ===>large devices like desktop / laptops                    @media screen(min-device-width:993px)   and (max-device-width:1200px){      }
+    1200-more    ===>extra large devices like big screens(projectors)        @media screen(min-device-width:1201px)   and (max-device-width:1600px){      }
+
+
+    =========ORIENTATION: LANDSCAPE / PORTRAIT============
+
+    0-768px      ===>mobile phones                                              @media screen(min-device-width:0px)   and (max-device-width:768px) and (orientation:landscape){      }
+    768px-992px  ===>tablets                                                    @media screen(min-device-width:769px)   and (max-device-width:992px) and (orientation:portrait){      }
+    992px-1200px ===>large devices like desktop / laptops                       @media screen(min-device-width:993px)   and (max-device-width:1200px) and (orientation:landscape){      }{      }
+    1200-more    ===>extra large devices like big screens(projectors)           @media screen(min-device-width:1201px)   and (max-device-width:1600px) and (orientation:landscape){      }{      }
+*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-device-width:0) and (max-device-width:300px) and (orientation:landscape)
+{
+    body{
+        background-color: yellow;
+    }
+}
+@media screen and (min-device-width:301px) and (max-device-width:600px) and (orientation:landscape)
+{
+    body{
+        background-color: rgb(115, 0, 255);
+    }
+}
+@media screen and (min-device-width:601px) and (max-device-width:900px) and (orientation:landscape)
+{
+    body{
+        background-color: rgb(14, 195, 8);
+    }
+}
+@media screen and (min-device-width:901px) and (max-device-width:1200px) and (orientation:landscape)
+{
+    body{
+        background-color: rgb(183, 9, 79);
+    }
+}
+@media screen and (min-device-width:1201px) and (orientation:landscape)
+{
+    body{
+        background-color: rgb(244, 96, 3);
+    }
+}
+
+
+
+div{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px solid red;
+}

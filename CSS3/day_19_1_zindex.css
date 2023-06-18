@@ -1,0 +1,43 @@
+.ab1{
+    position: absolute;
+    background-color: aqua;
+    width: 150px;
+    height: 100px;
+    z-index: 1;
+}
+.ab2{
+    position: absolute;
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    z-index: 3;
+}
+.ab3{
+    position: absolute;
+    background-color: aquamarine;
+    width: 150px;
+    height: 100px;
+    z-index: 2;
+}
+
+.cd1{
+    width: 150px;
+    height: 100px;
+    background-color: wheat;
+}
+.yellow{
+    background-color: yellow;
+    z-index: 4;
+    position: absolute;
+}
+.red{
+    background-color: red;
+    z-index: 5;
+    position: absolute;
+}
+.green{
+    background-color: green;
+    z-index: 13;
+    position: absolute;
+}
+

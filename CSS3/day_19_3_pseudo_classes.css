@@ -1,0 +1,36 @@
+/* 
+    selector:pseudo_class_name
+
+
+    :hover
+    :link
+    :visited
+    :active
+
+    :first-child
+    :last-child
+    :nth-child()
+
+    :focus
+
+*/
+
+li:first-child{
+    color: red;
+    background-color: aqua;
+}
+li:last-child{
+    color: blue;
+    background-color: aquamarine;
+}
+li:nth-child(even){
+    color: aqua;
+    background-color: rebeccapurple;
+}
+
+
+input:focus{
+    background-color: red;
+    width: 200px;
+    height: 20px;
+}

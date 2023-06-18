@@ -1,0 +1,53 @@
+/* 
+    pseudo elements starts with ::pseudo_element_name
+
+    selector::pseudo_element_name{
+        css-styles
+        css-styles
+        css-styles
+    }
+
+
+    ::first-letter
+    ::first-line
+    ::placeholder
+    ::selection
+    ::after
+    ::before
+
+*/
+
+
+.heading1::first-letter{
+    font-size: 60px;
+    color: aqua;
+    text-shadow: 2px 2px 2px red;
+    border: 4px solid green;
+}
+
+.para1::first-line{
+    font-size: 30px;
+    color: blue;
+    text-shadow: 3px 3px 3px green;
+}
+
+.para2::selection{
+    color:red;
+    text-shadow: 2px 3px 1px blueviolet;
+    
+}
+
+.para3::before{
+    content: "this is first para before the element";
+    color: red;
+    text-shadow: 2px 3px 2px yellow;
+    font-size: 20px;
+}
+
+.para4::after{
+    content: "This is last para after the element";
+    color: aqua;
+    text-shadow: 2px 3px 1px red;
+    font-size: 20px;
+}
+
